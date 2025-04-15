@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-card {
+    width: 30vw;
+    height: 70vh;
+    margin-top: 10vh;
+    /* border: 2px solid black; */
+    border-radius: 4vh;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.603);
+    /* background: linear-gradient(45deg, rgba(0, 255, 217, 0.428), rgba(217, 0, 255, 0.482)); */
+}
+
+.search {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.search-text {
+    width: 70%;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-radius: 4vh;
+    padding-left: 1vw;
+    font-size: 3vmin;
+    color: black;
+    
+}
+
+.search-btn {
+    width: 20%;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flipped{
+    transform: rotateY(180deg); 
+    transition: 1s;
+}
+.back-flipped{
+    transform: rotateX(180deg); 
+    transition: 1s;
+}
+
+
+#search-icon {
+    width: 30%;
+}
+
+.weather-img {
+    width: 15vw;
+    height: 20vh;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#weather-img {
+    width: 20vmin;
+}
+
+.weather {
+    width: 30vw;
+    height: fit-content;
+    display: flex;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vmin;
+    font-size: 4vmin;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    font-size: 4vmin;
+}
+
+.weather-info {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 4vmin;
+}
+
+.humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-info img {
+    width: 5vmin;
+    font-size: 4vmin;
+}
+.humi-wind{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    font-size: 2vmin;
+    margin-top: -3vmin;
+    gap: 14vmin;
+}
+.wind-txt{
+    margin-left: -14vmin;
+}
